@@ -1,0 +1,17 @@
+{
+  "name": "Abra Varios Sites ao mesmo tempo!",
+  "version": "1.0",
+  "description": "Abra várias paginas sem ter que ficar clicando e abrindo abas!",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+
+  "manifest_version": 2,
+
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon2.png"   
+  }
+
+}

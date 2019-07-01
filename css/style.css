@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    background-color: rgba(245, 248, 252, 0.993);
+    text-shadow: 5px 5px 10px #55b0d4;
+   
+}
+#urls{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(215, 234, 250);
+    border: 5px ridge #1b1649; 
+    border-radius: 10px 30px;
+    box-shadow: 5px 5px 10px #55b0d4;
+    -webkit-box-shadow: 5px 5px 10px #55b0d4;
+    -moz-box-shadow: 5px 5px 10px #55b0d4;
+  }
+#button{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 200px;
+    background: #fafbfc;
+    border: 2px outset #e4e4f8;
+    box-shadow: 5px 5px 10px #0076a3;
+    -webkit-box-shadow: 5px 5px 10px #0076a3;
+    -moz-box-shadow: 5px 5px 10px #0076a3;
+  }
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    letter-spacing: -1px;
+  }
