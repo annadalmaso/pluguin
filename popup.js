@@ -1,6 +1,6 @@
 function loadUrls(){
 //busca as urls da area e carrega
-var urls = document.getElementById('urls').value.split('\n');
+var urls = document.getElementById('urls').value.split('\n'); //nova linha
  
     for(var i=0; i<urls.length; i++){
 
@@ -11,7 +11,7 @@ var urls = document.getElementById('urls').value.split('\n');
       }
      
       else {
-         document.getElementById('urls').innerHTML = "No value specified";
+         document.getElementById('urls').innerHTML = "Pagina Não informada";
       }
     }
 }
@@ -44,6 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
     // recarrega as paginas
     var urls = localStorage['urls'];
+    alert('https://'+urls);
     if (!urls) {
       return;
     }
