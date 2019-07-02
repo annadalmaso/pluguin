@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
     // recarrega as paginas
     var urls = localStorage['urls'];
-    alert('https://'+urls);
+    alert(urls);
     if (!urls) {
       return;
     }
